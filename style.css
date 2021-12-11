@@ -1,0 +1,66 @@
+body {
+  font-family:"Open sans", sans-serif;
+  margin: 5% 20%;
+  }
+h1 {
+  font-size:28px;
+  text-transform: uppercase; 
+  font-weight:500;
+}
+h2 {
+  font-size:21px;
+  text-transform: uppercase;
+  font-weight:500;
+}  
+h3 {
+  font-size:16px;
+  font-weight:600;
+  line-height:0px;
+} 
+h4 {
+  font-size:16px;
+  font-weight:400;
+  line-height:0px;
+}
+ul {
+  font-size:14px;
+  font-weight: 400;
+  padding-left:16px;    
+}
+.heading {
+    text-align:center;
+}
+.sub-heading {
+    text-align:center;
+    line-height:5px;
+}
+.summary-skills-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    border-top:2px solid black;
+}
+.education-header {
+    text-align:center;
+    border-top:2px solid black;
+    margin-top:12px;
+}
+
+.school-degree {
+    border:1px solid white;
+}
+.date {
+    float:right;
+    line-height:0px;
+    font-size:16px;
+    font-weight:400;
+}
+
+.experience-header {
+    text-align:center;
+    border-top:2px solid black;
+    margin-top:12px;
+}
+.description {
+    padding-bottom:7px;
+    width:85%;
+}
